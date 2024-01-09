@@ -28,7 +28,7 @@
                                     <label for="pid" class="control-label">Product</label>
                                     <select type="text" id="pid" class="form-control rounded-0">
                                         <option value="" selected="selected" disabled="disabled"></option>
-                                        {% for product in product %}
+                                        {% for product in products %}
                                             <option value="{{ product.pk }}">{{ product }}</option>
                                         {% endfor %}
                                     </select>
