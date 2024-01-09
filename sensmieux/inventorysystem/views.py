@@ -379,7 +379,7 @@ def export_pricelists(request):
     response_list = HttpResponse(content_type='text/csv')
     response_list['Content-Disposition'] = 'attachment; filename="pricelist.csv"'
 
-    writer = csv.writer(response2)
+    writer = csv.writer(response_list)
     writer.writerow(['Name', 'Price'])
 
     for result in results:
