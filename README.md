@@ -45,7 +45,7 @@ Type: PROCEDURE
 Definition:
 
 BEGIN
-    SELECT expiry, name FROM imsApp_product ORDER BY expiry;
+    SELECT expiry, name FROM inventorysystem_product ORDER BY expiry;
 END
 
 Definer: root@localhost
