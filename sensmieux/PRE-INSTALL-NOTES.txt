@@ -1,3 +1,5 @@
+Unzip the static.zip file
+
 Application Packages to Install
 python3-pip
 python3-venv
