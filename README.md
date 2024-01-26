@@ -15,13 +15,13 @@
 # create new database named "sensmieux_django"
 # 
 # 
-# How to Set Up Virtual ENvironment in Command Line (after directing the command prompt to the directory just outside the "sensmieux" folder:
-# python3 -m venv my_env #assign ~/django as virtual environment
+# How to Set Up Virtual Environment in Command Line (after directing the command prompt to the directory just outside the "sensmieux" folder:
+# python3 -m venv my_env #assign virtual environment
 # source my_env/bin/activate #always perform this to enter the virtual environment  before making any django/python commands
 # 
 # 
 # 
-# Python Pip Packages to Install (After setting up Virtual Ennvironment):
+# Python Pip Packages to Install (After setting up Virtual Ennvironment, type "pip install package" - replace package with the package name below):
 # django
 # mysqlclient
 # pillow
@@ -33,7 +33,7 @@
 # to complete the database migration, change directory to the root sensmieux folder. and type the command
 # python3 manage.py makemigrations
 # python3 manage.py migrate
-# python3 manage.py createsuperuser
+# python3 manage.py createsuperuser #creates a superuser account
 # 
 # 
 # 
