@@ -21,7 +21,7 @@
 # 
 # 
 # 
-# Python Pip Packages to Install (After setting up Virtual Ennvironment, type "pip install package" - replace package with the package name below):
+# Python Pip Packages to Install (After setting up Virtual Environment, type "pip install package" - replace package with the package name below):
 # django
 # mysqlclient
 # pillow
